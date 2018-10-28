@@ -1,0 +1,63 @@
+#movies img, #movie img{
+  width:100%;
+}
+
+@media(min-width:960px){
+  #movies .col-md-3 .well{
+    height: 390px;
+  }
+
+  #movies .col-md-3 img{
+    height:240px;
+  }
+}
+
+body{
+    
+      background: linear-gradient(blue, yellow);
+
+}
+
+
+.center{
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height:30%;
+    border-radius: 50%;
+    
+}
+
+.bbcard {
+display: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    height:180px;
+    border-radius: 50%;
+  
+    
+}
+
+
+.jumbotron{
+  background: linear-gradient(yellow, blue,black);
+}
+
+h3{
+color:whitesmoke;
+font-family: 'Mali', cursive;
+font-size:60px;
+
+}
+
+.btm {
+ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+
